@@ -1,5 +1,7 @@
 #include "sxsdk.cxx"
 
+#define MAX_SHAPES 16
+
 struct boolean_inlaid_interface : public sxsdk::browser_interface
 {
     boolean_inlaid_interface(sxsdk::shade_interface& shade) : shade(shade) {};
